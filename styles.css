@@ -1,0 +1,242 @@
+html {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.cont1 p {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    color: hsl(183, 100%, 15%);
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    display: block;
+}
+
+.Main-Container {
+    display: flex;
+    margin: auto;
+    margin-top: 70px;
+    width: 700px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.cont1 {
+    margin: 20px;
+    width: 350px;
+}
+
+.cont2 {
+    background-color: hsl(183, 100%, 15%);
+    margin: 15px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+.tip button {
+    background: hsl(183, 100%, 15%);
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 30px;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+    font-family: 'Space Mono', monospace;
+}
+
+#tip5 {
+    padding: 5px 35px;
+}
+
+.tip input {
+    width: 85px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    margin-left: 5px;
+    margin-top: 5px;
+    background: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    outline: none;
+}
+
+#custom:focus {
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+::placeholder {
+    color: hsl(183, 100%, 15%);
+}
+
+.tip button:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+
+.bill input {
+    width: 90%;
+    height: auto;
+    border-radius: 4px;
+    border: none;
+    background-image: url(images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    text-align: right;
+    font-size: 24px;
+    outline: none;
+}
+
+.bill input:focus {
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+.people input {
+    width: 90%;
+    height: auto;
+    border-radius: 4px;
+    border: none;
+    background-image: url(images/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+    text-align: right;
+    font-size: 24px;
+    outline: none;
+}
+
+#zero {
+    float: right;
+    margin-top: -28px;
+    margin-right: 30px;
+    color: red;
+}
+
+.people input:focus {
+    border: 2px solid hsl(172, 67%, 45%);
+}
+
+.total {
+    margin-top: 30px;
+}
+
+.tipAmount {
+    margin-top: 50px;
+}
+
+#tipA,
+#tot {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    margin-left: 30px;
+    line-height: 1px;
+}
+
+#per,
+#per2 {
+    color: hsl(184, 14%, 56%);
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    margin-left: 30px;
+}
+
+#tPP {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Space Mono', monospace;
+    margin-top: -15px;
+    margin-right: 30px;
+    color: hsl(172, 67%, 45%);
+}
+
+#tp {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-right: 30px;
+    font-family: 'Space Mono', monospace;
+    color: hsl(172, 67%, 45%);
+}
+
+.reset button {
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 5px 102px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    color: hsl(183, 100%, 15%);
+    font-family: 'Space Mono', monospace;
+    background-color: hsl(172, 67%, 45%);
+}
+
+.reset button:hover {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.reset button:active {
+    background-color: hsl(172, 67%, 45%);
+}
+
+@media only screen and (max-width: 375px) {
+    .Main-Container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .cont1 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cont2 {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .reset {
+        margin-bottom: 20px;
+    }
+    .bill {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .people {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tip {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tip button {
+        width: 45%;
+        margin-top: 10px;
+    }
+    .tip input {
+        width: 43%;
+    }
+}

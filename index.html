@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel='stylesheet' href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+    </style>
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+    <img src='images/logo.svg' alt='logo'>
+    <div class='Main-Container'>
+        <div class='cont1'>
+            <div class='bill'>
+                <p>Bill</p>
+                <input type="input" id='bill' placeholder="0">
+            </div>
+            <div class='tip'>
+                <p>Select Tip %</p>
+                <button type='button' id='tip5'>5%</button>
+                <button type='button' id='tip10'>10%</button>
+                <button type='button' id='tip15'>15%</button>
+                <button type='button' id='tip25'>25%</button>
+                <button type='button' id='tip50'>50%</button>
+                <input type='input' id='custom' placeholder="Custom">
+            </div>
+            <div class='people'>
+                <p>Number of People</p>
+                <p id='zero'></p>
+                <input type='input' id='numPeople' placeholder="0">
+            </div>
+        </div>
+        <div class='cont2'>
+            <div class='tipAmount'>
+                <p id='tPP'>$0.00</p>
+                <p id='tipA'>Tip Amount </p>
+                <p id='per'>/ person</p>
+
+            </div>
+            <div class='total'>
+
+                <p id='tot'>Total </p>
+                <p id='per2'>/ person</p>
+                <p id='tp'>$0.00</p>
+            </div>
+            <div class='reset'>
+                <button type='button' id='reset'>Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Paola Silva</a>.
+    </div>
+    <script src='javascript.js'></script>
+</body>
+
+</html>
