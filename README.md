@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/mod771/tip_calculator_app 
-- Live Site URL: https://mod771.github.io/tip_calculator_app/
+- Solution URL: https://github.com/paolas771/tip_calculator_app 
+- Live Site URL: https://paolas771.github.io/tip_calculator_app/
 
 ## My process
 
